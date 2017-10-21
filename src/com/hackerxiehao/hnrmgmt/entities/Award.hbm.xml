@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2017-10-19 12:44:42 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.hackerxiehao.hnrmgmt.entities.Award" table="AWARD">
+        <id name="awdID" type="java.lang.String">
+            <column name="AWD_ID" />
+            <generator class="uuid" />
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="NAME" />
+        </property>
+        <property name="gradeName" type="java.lang.String">
+            <column name="GRADE_NAME" />
+        </property>
+        <property name="grade" type="java.lang.String">
+            <column name="GRADE" />
+        </property>
+    </class>
+</hibernate-mapping>
