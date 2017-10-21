@@ -46,7 +46,7 @@ public class Award {
 	}
 
 	public Award() {
-		
+		super();
 	}
 
 	@Override
